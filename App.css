@@ -1,0 +1,36 @@
+.app-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: sans-serif;
+    padding: 20px;
+    color: aqua;
+  }
+  
+  .input-group {
+    margin-bottom: 15px;
+    width: 100%; /* Make input groups take full width */
+  }
+  
+  label {
+    display: block;  /* Place labels above inputs */
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="number"] {
+    width: calc(100% - 12px); /* Adjust width for padding and border */
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+  }
+  
+  .alert {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #f0ad4e; /* Yellow for alerts */
+    border: 1px solid #eea236;
+    border-radius: 4px;
+  }
+ 
