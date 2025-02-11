@@ -1,0 +1,44 @@
+/* .price-tracker-container {
+    padding: 20px;
+    font-family: sans-serif;} /* Example font */
+
+
+/* ... other styles ... */
+
+/* .alert {
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid;
+    color: red;
+}
+
+.alert.success { color: aqua; }
+.alert.error { color:red } */ 
+
+
+body{
+    background: color #f8f8f8;
+    text-align: center;
+    
+}
+
+h1{
+    color: #0056b3;
+    text-align: center;
+    margin-bottom: 50px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.alert{
+    color: #28a745;
+    font-size: 49px;
+    font-weight:500;
+}
+label{
+    color: #6c757d;
+    font-size: large;
+    
+}
+
+
